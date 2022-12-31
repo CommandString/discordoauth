@@ -1,0 +1,22 @@
+{
+    "name": "commandstring/discordoauth",
+    "description": "An easier way to use discord oauth in PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CommandString\\DiscordOAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "commandstring",
+            "email": "bmxmikey2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "react/http": "^1.8",
+        "react/async": "^4.0"
+    }
+}
