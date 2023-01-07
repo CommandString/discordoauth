@@ -102,7 +102,7 @@ class OAuth {
             "client_secret" => $this->client_secret,
             "grant_type" => "authorization_code",
             "code" => $code,
-            "redirect_uri" => "http://localhost:8000"
+            "redirect_uri" => $this->redirect_uri
         ];
 
         $result = await(
